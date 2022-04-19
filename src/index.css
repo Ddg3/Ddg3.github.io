@@ -1,0 +1,35 @@
+body {
+  background-color: #afafae;
+  margin-left: 33%;
+  padding-top: 10%;
+}
+
+#musicbutton {
+  background-image: url("musicButton.png");
+  background-size: 332px 515px;
+  height: 515px;
+  width: 332px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#musicbutton:hover {
+  background-image: url("musicButtonHover.png");
+}
+
+#softwarebutton {
+  background-image: url("softwareButton.png");
+  background-size: 332px 515px;
+  height: 515px;
+  width: 332px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#softwarebutton:hover {
+  background-image: url("softwareButtonHover.png");
+}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form id="myForm" method="POST">
+            <div>
+                Spotify URI: <input type="text" name="playlisturl" />
+            </div>
+            <div>
+                <input type="submit" formaction="http://localhost:3000/tracks" value="Get Tracks"/>
+                <input type="submit" formaction="http://localhost:3000/albums" value="Get Albums"/>
+                <input type="submit" formaction="http://localhost:3000/artists" value="Get Artists"/>
+            </div>
+        </form>
+    </body>
+</html>
