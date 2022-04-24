@@ -19,6 +19,10 @@ body {
   background-image: url("res/musicButtonHover.png");
 }
 
+#musicbutton:enabled{
+  background-image: url("res/musicButtonHover.png");
+}
+
 #softwarebutton {
   background-image: url("res/softwareButton.png");
   background-size: 332px 515px;
@@ -31,5 +35,8 @@ body {
 }
 
 #softwarebutton:hover {
+  background-image: url("res/softwareButtonHover.png");
+}
+#softwarebutton:enabled {
   background-image: url("res/softwareButtonHover.png");
 }
