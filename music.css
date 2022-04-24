@@ -13,9 +13,9 @@ body {
 #ascii {
   background-color: rgb(2, 1, 8);
   float: left;
-  padding-left: 1%;
   padding-right: 1%;
   font-weight: bold;
+  font-size: smaller;
   color:white
 }
 
@@ -29,7 +29,40 @@ body {
   padding-left: 2%;
   padding-right: 10px;
   overflow-wrap: normal;
-  width: 600px;
+  width: 350px;
+}
+
+#streaming-wrapper{
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  right: 2%;
+}
+#spotify{
+  background-image: url("res/spotify.png");
+  background-size: 60px 60px; 
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: inline-block;
+}
+
+#apple{
+  background-image: url("res/apple.png");
+  background-size: 80px 80px; 
+  width: 80px;
+  height: 80px;
+  border: none;
+  display: inline-block;
+}
+
+#bandcamp{
+  background-image: url("res/bandcamp.png");
+  background-size: 60px 60px; 
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: inline-block;
 }
 
 .newline {
