@@ -1,0 +1,51 @@
+body {
+  background-color: #afafae;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#image-div {
+  display: inline-flex;
+  width: 60%;
+}
+
+#ascii-div {
+  margin-left: 2%;
+  display: inline-flex;
+  width: 100%;
+}
+#text-div {
+  display: inline-block;
+  padding-top: 0;
+  margin-left: 5%;
+  width: 30%;
+}
+
+#logo-button {
+  background-image: url("res/shellard.png");
+  background-size: 103px 56px;
+  height: 56px;
+  width: 100%;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#musicbutton {
+  background-image: url("res/musicButton.png");
+  background-size: 166px 257px;
+  height: 257px;
+  width: 166px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#musicbutton:hover {
+  background-image: url("res/musicButtonHover.png");
+}
+
+#musicbutton:enabled{
+  background-image: url("res/musicButtonHover.png");
+}
