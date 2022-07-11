@@ -1,15 +1,17 @@
 body {
   background-color: #afafae;
-  font-family:'Courier New', Courier, monospace;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #image-div {
   display: inline-flex;
-  width: 60%;
+  margin-left: 10%;
+  width: 40%;
 }
 
 #ascii-div {
   margin-left: 2%;
+  margin-right: 2%;
   display: inline-flex;
   width: 100%;
 }
@@ -17,7 +19,7 @@ body {
   display: inline-block;
   padding-top: 0;
   margin-left: 5%;
-  width: 30%;
+  width: 40%;
 }
 
 #logo-button {
@@ -31,8 +33,17 @@ body {
   vertical-align: baseline;
 }
 
-#musicbutton {
-  background-image: url("res/musicButton.png");
+#text-logo{
+  background-image: url("res/shell-web_blue.png");
+  background-size: 473px 225px;
+  height: 225px;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#fa-spotify {
+  background-image: url("res/polaroids/musicButton.png");
   background-size: 166px 257px;
   height: 257px;
   width: 166px;
@@ -42,10 +53,105 @@ body {
   vertical-align: baseline;
 }
 
-#musicbutton:hover {
-  background-image: url("res/musicButtonHover.png");
+#fa-spotify:hover {
+  background-image: url("res/polaroids/FAspotifyHover.png");
 }
 
-#musicbutton:enabled{
-  background-image: url("res/musicButtonHover.png");
+#fa-spotify:enabled{
+  background-image: url("res/polaroids/FAspotifyHover.png");
+}
+
+#fa-apple {
+  background-image: url("res/polaroids/softwareButton.png");
+  background-size: 166px 257px;
+  height: 257px;
+  width: 166px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#fa-apple:hover {
+  background-image: url("res/polaroids/FAappleHover.png");
+}
+
+#fa-apple:enabled{
+  background-image: url("res/polaroids/FAappleHover.png");
+}
+
+#fa-bc {
+  background-image: url("res/polaroids/musicButton.png");
+  background-size: 166px 257px;
+  height: 257px;
+  width: 166px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#fa-bc:hover {
+  background-image: url("res/polaroids/FAbcHover.png");
+}
+
+#fa-bc:enabled{
+  background-image: url("res/polaroids/FAbcHover.png");
+}
+
+#sng-spotify {
+  background-image: url("res/polaroids/SNGspotify.png");
+  background-size: 166px 257px;
+  height: 257px;
+  width: 166px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#sng-spotify:hover {
+  background-image: url("res/polaroids/SNGspotifyHover.png");
+}
+
+#sng-spotify:enabled{
+  background-image: url("res/polaroids/SNGspotifyHover.png");
+}
+
+#sng-apple {
+  background-image: url("res/polaroids/SNGapple.png");
+  background-size: 166px 257px;
+  height: 257px;
+  width: 166px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#sng-apple:hover {
+  background-image: url("res/polaroids/SNGappleHover.png");
+}
+
+#sng-apple:enabled{
+  background-image: url("res/polaroids/SNGappleHover.png");
+}
+
+#sng-bc {
+  background-image: url("res/polaroids/SNGbc.png");
+  background-size: 166px 257px;
+  height: 257px;
+  width: 166px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#sng-bc:hover {
+  background-image: url("res/polaroids/SNGbcHover.png");
+}
+
+#sng-bc:enabled{
+  background-image: url("res/polaroids/SNGbcHover.png");
 }
